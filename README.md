@@ -23,7 +23,11 @@ Built a Windows Server Active Directory environment to support enterprise-style 
 - Enforced Active Directory password complexity policies  
 
 ### Evidence
-*(Screenshots below demonstrate the final state and administrative actions)*
+#### Active Directory Domain Context
+![AD Domain](screenshots/lab1_ad_domain_context_menu.png)
+
+Verified successful domain creation and administrative access by managing objects directly within the LAB.LOCAL domain.
+
 
 ### Skills Demonstrated
 - Active Directory Administration  
