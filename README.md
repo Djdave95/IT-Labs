@@ -33,6 +33,10 @@ Verified successful domain creation and administrative access by managing object
 
 Validated successful domain controller promotion by confirming the presence of default Active Directory containers within the LAB.LOCAL domain.
 
+#### Organizational Unit (OU) Structure
+![OU Structure](screenshots/lab1_ou_structure.png)
+
+Created custom organizational units to logically separate users, computers, groups, and IT administration in accordance with Active Directory best practices.
 
 ### Skills Demonstrated
 - Active Directory Administration  
