@@ -38,6 +38,11 @@ Validated successful domain controller promotion by confirming the presence of d
 
 Created custom organizational units to logically separate users, computers, groups, and IT administration in accordance with Active Directory best practices.
 
+#### Domain User Provisioning
+![User Provisioning](screenshots/lab1_domain_user_provisioning.png)
+
+Provisioned domain user accounts within a dedicated organizational unit while enforcing Active Directory password complexity policies.
+
 ### Skills Demonstrated
 - Active Directory Administration  
 - Identity & Access Management (IAM)  
