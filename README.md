@@ -28,6 +28,11 @@ Built a Windows Server Active Directory environment to support enterprise-style 
 
 Verified successful domain creation and administrative access by managing objects directly within the LAB.LOCAL domain.
 
+#### Default Active Directory Containers
+![Default AD Containers](screenshots/lab1_default_ad_containers.png)
+
+Validated successful domain controller promotion by confirming the presence of default Active Directory containers within the LAB.LOCAL domain.
+
 
 ### Skills Demonstrated
 - Active Directory Administration  
