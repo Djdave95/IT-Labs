@@ -1,26 +1,35 @@
-# Lab 01 – Active Directory Domain Setup
+# Lab 03 – Windows Client Join & Domain Validation
 
 ## 🎯 Objective
-Deploy a Windows Server domain controller and configure Active Directory in a virtual lab environment.
+Join a Windows client machine to the Active Directory domain and validate authentication, policy application, and network connectivity.
 
 ## 🛠️ Tools Used
-- Windows Server
-- Virtual Machine (VMware / VirtualBox)
-- Active Directory Domain Services (AD DS)
-- Windows Client VM
+- Windows 10/11 Client VM
+- Windows Server Domain Controller
+- Active Directory
+- Group Policy
+- Command Line Tools (whoami, gpresult, ping)
 
-## 🧪 Lab Tasks
-- Installed Windows Server
-- Promoted server to Domain Controller
-- Created a new domain
-- Verified DNS configuration
-- Joined client machine to domain
+## 🧪 Lab Steps
+
+### ✅ Step 1 – Network Connectivity Validation
+Verified client connectivity to the domain controller and DNS resolution.
+
+### ✅ Step 2 – Join Client to Domain
+Successfully joined the Windows client machine to the Active Directory domain.
+
+### ✅ Step 3 – Domain Login Validation
+Authenticated using domain credentials on the client machine.
+
+### ✅ Step 4 – Group Policy Verification
+Validated applied policies using gpresult and system behavior.
 
 ## 📸 Evidence
-See screenshots folder for configuration and validation steps.
+Screenshots will be added to demonstrate client join, authentication, and policy validation.
 
 ## ✅ Skills Demonstrated
-- Domain deployment
-- Server configuration
-- Identity infrastructure fundamentals
+- Domain joining
+- Identity authentication
+- Client-server validation
 - Troubleshooting
+- Windows administration
