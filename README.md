@@ -1,3 +1,40 @@
+# 🧪 IT Labs – Cybersecurity & Systems Practice
+
+This repository contains hands-on labs focused on building real-world IT and cybersecurity skills.
+
+---
+
+## 🔐 Lab Topics
+
+✔️ Active Directory Domain Setup  
+✔️ User & Group Management  
+✔️ Group Policy Configuration  
+✔️ Security Permissions  
+✔️ Windows Server Administration  
+✔️ Virtual Machine Lab Environment  
+✔️ Troubleshooting & Validation  
+
+Each lab includes screenshots and documentation for verification and learning purposes.
+
+---
+
+## 🛠️ Tools Used
+
+- Windows Server
+- Windows 10/11
+- VMware / VirtualBox
+- Active Directory
+- Group Policy Management
+- Networking Services
+
+---
+
+## 🎯 Purpose
+
+These labs demonstrate my technical growth and readiness for entry-level IT, cybersecurity, and cloud roles.  
+All work is documented to show hands-on capability, not just theory.
+
+More labs will be added continuously.
 # IT-Labs
 IT Home Labs – Active Directory, Group Policy, Desktop Support
 # IT Home Labs Portfolio
