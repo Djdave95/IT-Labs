@@ -13,7 +13,8 @@ All labs include structured documentation and visual evidence inside their indiv
 ✅ Lab 03 – Windows Client Join & Validation  
 ✅ Lab 04 – Role-Based Access Control (RBAC)  
 
-Click into each lab folder to view detailed steps and screenshots.
+📂 Browse the lab folders above to view each hands-on lab.
+Each folder contains screenshots, step-by-step documentation, and validation evidence.
 
 ---
 
