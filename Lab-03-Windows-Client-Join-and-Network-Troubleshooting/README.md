@@ -57,3 +57,15 @@ ipconfig
 ping DC01
 nslookup lab.local
 whoami
+
+## 🧠 What I Learned
+
+- How virtual networking works in VMware (NAT vs Host-Only) and how subnet mismatches can prevent communication between virtual machines.
+- How to troubleshoot connectivity issues using tools such as `ipconfig`, `ping`, and `nslookup`.
+- How DNS configuration impacts Active Directory domain discovery and authentication.
+- How to manually configure a Windows client to point to a domain controller for DNS resolution.
+- How to validate successful domain joins and domain authentication from a client machine.
+- How to document technical work clearly using screenshots, validation commands, and structured documentation.
+- Improved confidence troubleshooting real-world networking and Active Directory issues.
+
+This lab strengthened my understanding of Windows networking, DNS troubleshooting, and Active Directory fundamentals, which are essential skills for IT support, system administration, and cybersecurity roles.
