@@ -58,6 +58,8 @@ ping DC01
 nslookup lab.local
 whoami
 
+---
+
 ## 🧠 What I Learned
 
 - How virtual networking works in VMware (NAT vs Host-Only)
