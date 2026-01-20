@@ -47,3 +47,21 @@ ipconfig
 ping DC01
 nslookup lab.local
 whoami
+
+🧠 What I Learned
+
+How VMware virtual networking works (NAT vs Host-Only)
+
+How subnet mismatches prevent machines from communicating
+
+Why Active Directory clients must use the Domain Controller as their DNS server
+
+How to validate connectivity using ping, ipconfig, and nslookup
+
+How to confirm domain authentication using whoami
+
+How troubleshooting methodology applies to real-world IT environments
+
+✅ Outcome
+
+Successfully configured a Windows 11 client to communicate with a domain controller, resolved DNS and network issues, and validated domain authentication.
