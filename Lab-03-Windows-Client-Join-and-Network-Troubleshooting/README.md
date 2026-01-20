@@ -21,22 +21,39 @@ Demonstrate the ability to troubleshoot virtual network connectivity, configure 
 ## 📸 Evidence
 
 ### 1) DC01 IP Configuration
-![DC01 IP](screenshots/lab03_01_dc01_ipconfig.png)
+![DC01 IP](screenshots/lab03_01_dc01_ipconfig.png)  
+**DC01 showing static IP configuration and network settings.**
+
+---
 
 ### 2) Windows Client IP Configuration
-![Client IP](screenshots/lab03_02_win11_ipconfig.png)
+![Client IP](screenshots/lab03_02_win11_ipconfig.png)  
+**Windows 11 client receiving IP address from the Host-Only network.**
+
+---
 
 ### 3) DNS Configuration on Client
-![DNS Configuration](screenshots/lab03_03_dns_configuration.png)
+![DNS Configuration](screenshots/lab03_03_dns_configuration.png)  
+**Client DNS manually configured to point to the Domain Controller (DC01).**
+
+---
 
 ### 4) Connectivity Validation (Ping DC01)
-![Ping Test](screenshots/lab03_04_ping_dc01.png)
+![Ping Test](screenshots/lab03_04_ping_dc01.png)  
+**Successful network connectivity validation between client and DC01 using ping.**
+
+---
 
 ### 5) Domain Join Confirmation
-![Domain Joined](screenshots/lab03_05_domain_joined.png)
+![Domain Joined](screenshots/lab03_05_domain_joined.png)  
+**Windows client successfully joined to the Active Directory domain.**
+
+---
 
 ### 6) Domain Login Validation
-![Domain Login](screenshots/lab03_06_domain_login_validation.png)
+![Domain Login](screenshots/lab03_06_domain_login_validation.png)  
+**Domain user successfully authenticated on the Windows client.**
+
 
 
 ## 🧪 Validation Commands
