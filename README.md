@@ -1,73 +1,47 @@
-# IT Infrastructure & Security Labs – Jose D. Pesantez
+# IT-Labs: Identity & Access Management Portfolio
 
-## Overview
-This repository contains hands-on infrastructure, identity, and security labs designed to demonstrate real-world IT administration, cybersecurity fundamentals, and enterprise system management.
+Hands-on labs demonstrating hybrid identity skills — on-premises Active Directory administration and cloud identity with Microsoft Entra ID — built and documented the way I'd document them on the job.
 
-All labs are built using Windows Server, Active Directory, Group Policy, and Windows client systems to simulate enterprise environments.
-
-Each lab includes:
-- Step-by-step documentation
-- Screenshots as validation evidence
-- Clear objectives and outcomes
-- Practical system configuration examples
+**Author:** Jose Pesantez · M.S. Cybersecurity, Fordham University
+**Focus:** Identity & Access Management · Microsoft Entra ID · Active Directory
 
 ---
 
-## Skills Demonstrated
-- Windows Server Administration
-- Active Directory & Identity Management
-- Group Policy Management
-- Access Control & Permissions
-- Network Fundamentals
-- Virtualization (VMware / VirtualBox)
-- Troubleshooting & Documentation
-- Security Best Practices
+## ☁️ Section 1: Identity & Access Management — Cloud (Microsoft Entra ID)
+
+Labs built in a free Microsoft Entra ID tenant, covering the core responsibilities of a cloud IAM analyst.
+
+| # | Lab | Status | Skills |
+|---|---|---|---|
+| 1 | [Entra ID Tenant Setup & User Lifecycle](./cloud-iam-labs/01-entra-tenant-setup) | 🚧 In progress | Tenant config · users & groups · joiner/mover/leaver |
+| 2 | [MFA & Security Defaults](./cloud-iam-labs/02-mfa-security-defaults) | 📋 Planned | MFA enforcement · authentication methods |
+| 3 | [Conditional Access Policies](./cloud-iam-labs/03-conditional-access) | 📋 Planned | CA policy design · blocking legacy auth · report-only mode |
+| 4 | [SSO App Registration](./cloud-iam-labs/04-sso-app-registration) | 📋 Planned | Enterprise apps · SSO · app assignment |
 
 ---
 
-## Lab Portfolio
+## 🖥️ Section 2: Windows Administration & Endpoint Labs (On-Prem AD)
 
-### Lab 01 – Active Directory Domain Setup
-Establishes a Windows Server Domain Controller, validates default AD structure, creates Organizational Units, and provisions domain users.
+Foundation labs in a virtualized Windows Server environment — the on-premises half of hybrid identity.
 
-📂 Folder: `Lab-01-Active-Directory-Setup`
-
----
-
-### Lab 02 – Group Policy Configuration & Management
-Implements centralized policy management including drive mapping, security banner enforcement, and shared resource permissions.
-
-📂 Folder: `Lab-02-Group-Policy-Basics`
+| # | Lab | Skills |
+|---|---|---|
+| 1 | [Active Directory Domain Setup](./windows-admin-labs/01-ad-domain-setup) | AD DS · DNS · OU design |
+| 2 | [Windows 11 Domain Client](./windows-admin-labs/02-win11-domain-client) | Domain join · user provisioning |
+| 3 | [Group Policy Management](./windows-admin-labs/03-group-policy) | Security baselines · GPO troubleshooting |
+| 4 | [IAM / RBAC / NTFS Permissions](./windows-admin-labs/04-rbac-ntfs-permissions) | Least privilege · RBAC · effective access |
 
 ---
 
-### Lab 03 – Windows Client Join & Network Troubleshooting
-Joins a Windows client to the domain, validates DNS and network connectivity, and performs troubleshooting and validation.
+## 🧪 Lab Environments
 
-📂 Folder: `Lab-03-Windows-Client-Join-and-Network-Troubleshooting`
+- **Cloud:** Microsoft Entra ID free tenant (+ Entra ID P2 30-day trial for Conditional Access)
+- **On-prem:** VMware Workstation · DC01 (Windows Server domain controller) · WIN11-CLIENT (Windows 11 Pro) · host-only lab network
 
----
+## 🗺️ Why this portfolio
 
-### Lab 04 – Role-Based Access Control (In Progress)
-Will implement NTFS permissions and RBAC models to demonstrate enterprise access control.
+Junior IAM roles live in both worlds: legacy Active Directory and cloud Entra ID. These labs cover the daily work — provisioning identities, enforcing authentication policy, controlling access with least privilege — across both. Every lab includes objectives, step-by-step configuration with screenshots, verification tests, and a "what broke / what I learned" section.
 
-📂 Folder: `Lab-04-Role-Based-Access-Control`
+## 📬 Contact
 
----
-
-## How to Navigate
-Click any lab folder above to view the README and screenshots for each project.
-
-Each lab is fully documented and includes visual evidence of configuration and validation steps.
-
----
-
-## About Me
-Jose D. Pesantez  
-M.S. Cybersecurity – Fordham University  
-Aspiring Cloud Security / IAM / Security Analyst  
-
-Focused on building practical skills through hands-on labs and real-world simulations.
-
----
-
+[LinkedIn](https://www.linkedin.com/in/jdp95) · j.d.pesantez09@gmail.com
