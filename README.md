@@ -5,8 +5,6 @@ Hands-on labs demonstrating hybrid identity skills — on-premises Active Direct
 **Author:** Jose Pesantez · M.S. Cybersecurity, Fordham University
 **Focus:** Identity & Access Management · Microsoft Entra ID · Active Directory
 
-📄 **[Mapping these labs to NIST CSF 2.0](./NIST-CSF-Mapping.md)** — which framework outcomes this portfolio actually demonstrates, and which it doesn't yet.
-
 📄 **Framework mapping:** [NIST CSF 2.0](./NIST-CSF-Mapping.md) · [ISO/IEC 27001:2022](./ISO-27001-Mapping.md)
 
 ---
