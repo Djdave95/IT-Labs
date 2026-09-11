@@ -27,7 +27,8 @@
 ### 1. Create role-based security groups
 In ADUC, created security groups matching each department — `HR-ReadWrite` (containing sjohnson) in the HR OU, and `IT-ReadWrite` (containing mlopez) in the IT OU — rather than permissioning users individually.
 
-![Security groups](./screenshots/01-security-groups.png)
+![HR-ReadWrite membership](./screenshots/01b-security-groups-HR.png)
+![IT-ReadWrite membership](./screenshots/01a-security-groups-IT.png)
 
 ### 2. Create the department share structure on DC01
 Created `C:\Shares\HR` and `C:\Shares\IT` and shared each one.
@@ -87,7 +88,8 @@ New-Item -Path "\\DC01\IT\mlopez-test.txt" -ItemType File      # Succeeded — e
 New-Item -Path "\\DC01\HR\mlopez-test2.txt" -ItemType File     # Access denied — expected
 ```
 
-![mlopez denied on HR](./screenshots/07-mlopez-denied.png)
+![mlopez allowed on IT](./screenshots/07a-mlopez-IT-allowed.png)
+![mlopez denied on HR](./screenshots/07b-mlopez-HR-denied.png)
 
 ## ✅ Verification
 - `HR-ReadWrite` and `IT-ReadWrite` groups exist in AD with the correct, and only the correct, members
